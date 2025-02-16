@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?restaurant,food') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin: 5% auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #f8b400;
+}
+
+input, button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input {
+    background: #fff;
+    color: #333;
+}
+
+button {
+    background: #f8b400;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e09e00;
+}
+
+.recipe-container {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
