@@ -33,7 +33,7 @@ async function getRecipe() {
             let chatResponse = await fetch('https://api.openai.com/v1/chat/completions', {
                 method: 'POST',
                 headers: {
-                    'Authorization': 'Bearer YOUR_OPENAI_API_KEY',
+                    'Authorization': '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',
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
